@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="5dp">
+
+    <!-- Top label/button text field. -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:addStatesFromChildren="true"
+        android:gravity="center_vertical"
+        android:paddingRight="0dip">
+        <Button
+            android:id="@+id/BtUpload"
+            style="@style/ButtonText"
+            android:background="@drawable/red_btn"
+            android:layout_weight="1"
+            android:text="上传" >
+        </Button>
+         <Button
+            android:id="@+id/BtQuery"
+            style="@style/ButtonText"
+            android:background="@drawable/yellow_btn"
+            android:layout_weight="1"
+            android:text="查询" >
+        </Button>
+
+    </LinearLayout>
+
+    <!-- Bottom label/button text field.  (Identical to the top one
+         except for the label.)  -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:addStatesFromChildren="true"
+        android:gravity="center_vertical"
+        android:paddingRight="0dip">
+
+          <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

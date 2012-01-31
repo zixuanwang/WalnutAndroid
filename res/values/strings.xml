@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CameraActivity!</string>
+    <string name="app_name">WePost</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_getLabel">Get Label</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_query">Query</string>
+    <string name="label_dialog_label">Label:</string>
+    <string name="label_dialog_title">Object Annotation</string>
+    <string name="label_dialog_ok">OK</string>
+    <string name="label_dialog_delete">Delete</string>
+    <string name="label_dialog_cancel">Cancel</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

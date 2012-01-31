@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="product_stores">
+        <item>Gap Factory Store</item>
+        <item>Macy\'s</item>
+        <item>Sears</item>
+        <item>Amazon</item>
+    </string-array>
+
+    <array name="product_icons">
+        <item>@drawable/gap1</item>
+        <item>@drawable/gap2</item>
+        <item>@drawable/gap3</item>
+        <item>@drawable/gap4</item>
+    </array>
+    <string-array name="product_prices">
+        <item>20.00</item>
+        <item>35.00</item>
+        <item>40.00</item>
+        <item>40.00</item>
+    </string-array>
+
+</resources>
